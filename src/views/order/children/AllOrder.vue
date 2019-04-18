@@ -1,5 +1,5 @@
 <template>
-    <div>全部</div>
+    <div>全部  </div>
 </template>
 
 <script>
