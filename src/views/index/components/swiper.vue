@@ -4,6 +4,7 @@
         <swiper-slide v-for="(item,index) in categoryList" :key="index" >
           <img :src="item.url" alt="" />
         </swiper-slide>
+        
         <!-- 常见的小圆点 -->
         <div class="swiper-pagination"  v-for="(item,index) in categoryList" :key="index" slot="pagination" ></div>
       </swiper>
