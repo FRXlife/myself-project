@@ -7,6 +7,7 @@ import Product from '@/views/product/product'
 import Detail from '@/views/detail/detail'
 import User from '@/views/user/user'
 import Photo from '@/views/photo/index'
+import Logistics from '@/views/logistics/info'
 
 import Order from '@/views/order/index'
 import AllOrder from '@/views/order/children/AllOrder'
@@ -57,6 +58,11 @@ export default new Router({
       path: '/photo',
       name: 'Photo',
       component: Photo
+    },
+    {
+      path: '/logistics',
+      name: 'Logistics',
+      component: Logistics
     },
     {
       path: '/order',
