@@ -7,7 +7,8 @@ import Product from '@/views/product/product'
 import Detail from '@/views/detail/detail'
 import User from '@/views/user/user'
 import Photo from '@/views/photo/index'
-import DateTime from '@/views/date/index'
+import Logistics from '@/views/logistics/info'
+
 
 import Order from '@/views/order/index'
 import AllOrder from '@/views/order/children/AllOrder'
@@ -60,9 +61,9 @@ export default new Router({
       component: Photo
     },
     {
-      path: '/date',
-      name: 'Date',
-      component: DateTime
+      path: '/logistics',
+      name: 'Logistics',
+      component: Logistics
     },
     {
       path: '/order',
