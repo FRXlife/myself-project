@@ -1,5 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+
+
+import Login from '@/views/login/login'
 import Index from '@/views/index/index'
 import Cart from '@/views/cart/cart'
 import Machine from '@/views/machine/machine'
@@ -8,6 +11,8 @@ import Detail from '@/views/detail/detail'
 import User from '@/views/user/user'
 import Photo from '@/views/photo/index'
 import Logistics from '@/views/logistics/info'
+import Suggest from '@/views/Suggest/index'
+import Invoice from '@/views/invoice/index'
 
 
 import Order from '@/views/order/index'
@@ -24,6 +29,11 @@ export default new Router({
     {
     path: '/',
     redirect: '/index'
+    },
+    {
+      path: '/login',
+      name: 'Login',
+      component: Login
     },
     {
       path: '/index',
@@ -64,6 +74,16 @@ export default new Router({
       path: '/logistics',
       name: 'Logistics',
       component: Logistics
+    },
+    {
+      path: '/suggest',
+      name: 'Suggest',
+      component: Suggest
+    },
+    {
+      path: '/invoice',
+      name: 'Invoice',
+      component: Invoice
     },
     {
       path: '/order',

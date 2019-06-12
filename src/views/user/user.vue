@@ -15,13 +15,13 @@
         </div> 
         <UserNav   /> 
         <ul class="kind-list">
-            <li><a href="#">全部订单</a></li>
-            <li><a href="#">收获地址</a></li>
-            <li><a href="#">取货码订单</a></li>
-            <li><a href="#">我的发票</a></li>
-            <li><a href="#">优惠券</a></li>
-            <li><a href="#">意见反馈</a></li>
-            <li><a href="#">联系客服</a></li>
+            <li><a href="/index"><i class="fa fa-bars" aria-hidden="true"></i>全部订单</a></li>
+            <li><a href="/address"><i class="fa fa-map-marker" aria-hidden="true"></i>收获地址</a></li>
+            <li><a href="/order"><i class="fa fa-codepen" aria-hidden="true"></i>取货码订单</a></li>
+            <li><a href="/invoice"><i class="fa fa-window-restore" aria-hidden="true"></i>我的发票</a></li>
+            <li><a href="/cou[on"><i class="fa fa-ticket" aria-hidden="true"></i>优惠券</a></li>
+            <li><a href="/suggest"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>意见反馈</a></li>
+            <li><a href="/concat"><i class="fa fa-comments" aria-hidden="true"></i>联系客服</a></li>
         </ul>
         <v-bottom></v-bottom>
     </div>
@@ -104,6 +104,12 @@ export default {
             display: flex;
             align-items: center;
             padding-left: 0.3rem;
+            i {
+                display: inline-block;
+                width: 0.3rem;
+                color: red;
+                margin-right: 0.5rem;
+            }
         }
     }
 </style>

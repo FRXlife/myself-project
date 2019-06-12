@@ -94,6 +94,9 @@ export default {
             this.active=i;
             this.currentView=v;
         }
+    },
+    created() {
+        console.log('')
     }
 
 }

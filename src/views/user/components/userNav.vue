@@ -47,13 +47,16 @@ export default {
         ul {
             display: flex;
             background:rgb(255,255,255);
+            height: 100%;
             li {
                 text-align: center;
                 flex: 1;
                 justify-content: center;
                 align-items: center;
-                height: 2rem;
+                height: 100%;
+                padding-top: 0.2rem;
                 .item {
+                    height: 100%;
                     margin: 0.1rem auto;
                     .fa {
                         width: 100%;

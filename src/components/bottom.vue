@@ -63,12 +63,12 @@ export default {
                 flex: 1;
                 justify-content: center;
                 align-items: center;
-                height: 1rem;
+                height: 1.3rem;
                 .item {
                     margin: 0.1rem auto;
                     .fa {
                         width: 100%;
-                        font-size:0.34rem;
+                        font-size:0.46rem;
                         margin: 0.1rem 0;
                     }
                     span {

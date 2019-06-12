@@ -49,7 +49,7 @@ export default {
             pagination: {
               el: ".swiper-pagination",
               clickable: true,
-              type: "bullets"
+              type: "progressbar"
             },
           },
           categoryList: [
