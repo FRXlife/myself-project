@@ -13,6 +13,7 @@ import Photo from '@/views/photo/index'
 import Logistics from '@/views/logistics/info'
 import Suggest from '@/views/Suggest/index'
 import Invoice from '@/views/invoice/index'
+import Address from '@/views/address/myaddress'
 
 
 import Order from '@/views/order/index'
@@ -84,6 +85,11 @@ export default new Router({
       path: '/invoice',
       name: 'Invoice',
       component: Invoice
+    },
+    {
+      path: '/address',
+      name: 'Address',
+      component: Address
     },
     {
       path: '/order',

@@ -4,7 +4,11 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+import MintUI from 'mint-ui'
+import 'mint-ui/lib/style.css'
 
+import '@/style/LArea.css'
+Vue.use(MintUI)
 
 import vueSwiper from 'vue-awesome-swiper'
 /* 样式的话，我这里有用到分页器，就在全局中引入了样式 */
