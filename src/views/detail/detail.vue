@@ -2,7 +2,10 @@
     <div class="content">
         <div class="title">商品详情 </div>
         <img src="" alt="">
-        <p class="product-name">科比是最伟大的球星就是这个世界上最好的球员没有之一</p>
+        <p class="product-name">
+            <span class="price">￥99.0</span>
+            <span class="fright">剩余55件</span>
+        </p>
     </div>
 </template>
 <script>
@@ -13,6 +16,13 @@ export default {
 <style lang="scss" scoped>
     .content {
         padding-bottom: 1rem;
+        .price {
+            color: #f66;
+        }
+    }
+    .fright {
+        float: right;
+        margin-right: 0.3rem;
     }
     .title {
         width: 100%;

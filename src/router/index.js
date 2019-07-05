@@ -14,7 +14,8 @@ import Logistics from '@/views/logistics/info'
 import Suggest from '@/views/Suggest/index'
 import Invoice from '@/views/invoice/index'
 import Address from '@/views/address/myaddress'
-
+import SetIndex from '@/views/set/index'
+import chart from '@/views/Echart/line'
 
 import Order from '@/views/order/index'
 import AllOrder from '@/views/order/children/AllOrder'
@@ -90,6 +91,16 @@ export default new Router({
       path: '/address',
       name: 'Address',
       component: Address
+    },
+    {
+      path: '/set',
+      name: 'Set',
+      component: SetIndex
+    },
+    {
+      path: '/chart',
+      name: 'Chart',
+      component: chart
     },
     {
       path: '/order',
